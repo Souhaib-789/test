@@ -1,0 +1,9 @@
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 90% !important;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}

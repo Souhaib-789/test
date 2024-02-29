@@ -1,0 +1,36 @@
+.upper_view {
+    background-color: blueviolet;
+    height: 200px;
+    width: '100%';
+}
+
+.heading {
+    color: white;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.sub_div {
+    position: absolute;
+    top: 7%;
+    left: 5%
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    width: 90% !important;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
