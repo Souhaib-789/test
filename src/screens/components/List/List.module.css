@@ -1,8 +1,13 @@
 .row{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+     display: flex;
+   /* flex: auto; */
+    /* display: grid;
+    gap: 50px 100px; */
     justify-content: space-between;
-    width: 90% !important;
+    max-width: 90% !important;
+    background-color: antiquewhite;
     margin-left: 5%;
     margin-top: 5%;
 
